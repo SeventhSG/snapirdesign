@@ -149,7 +149,11 @@
          HERO
     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
     <section id="home" class="hero">
-      <canvas id="hero-canvas" aria-hidden="true"></canvas>
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-orb hero-orb-1"></div>
+        <div class="hero-orb hero-orb-2"></div>
+        <div class="hero-orb hero-orb-3"></div>
+      </div>
 
       <div class="hero-content">
         <div class="hero-eyebrow animate-hero">
@@ -514,6 +518,12 @@
             <p class="about-p" data-i18n="about.p1">We are a Bulgaria-based 3D engineering studio specializing in LiDAR scanning and reverse engineering for construction and manufacturing industries.</p>
             <p class="about-p" data-i18n="about.p2">Our primary partner is Snapir — an Israeli leader in precision aluminum construction products including gates, fences, banisters, and architectural elements for private, commercial, and public clients.</p>
             <p class="about-p" data-i18n="about.p3">We bridge advanced scanning technology with construction precision — turning real-world structures into exact digital models that power manufacturing and building projects. We welcome new clients globally.</p>
+            <div class="founder-line">
+              <span class="founder-label" data-i18n="about.founderLabel">Founder</span>
+              <span class="founder-name">Ihsan Serbest</span>
+              <span class="founder-since" data-i18n="about.founderSince">Since 2016</span>
+            </div>
+
             <div class="about-badges">
               <div class="about-badge">
                 <span class="badge-icon" aria-hidden="true">
@@ -531,77 +541,130 @@
           </div>
 
           <div class="about-graphic animate-on-scroll" aria-hidden="true">
-            <svg viewBox="0 0 400 420" xmlns="http://www.w3.org/2000/svg" class="about-svg">
+            <!-- Aluminum gate / fence elevation — engineering drawing style -->
+            <svg viewBox="0 0 400 440" xmlns="http://www.w3.org/2000/svg" class="about-svg">
               <defs>
-                <pattern id="aboutGrid" width="40" height="40" patternUnits="userSpaceOnUse">
-                  <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#e8e8e8" stroke-width="0.5"/>
+                <pattern id="engGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+                  <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#ececec" stroke-width="0.4"/>
+                </pattern>
+                <pattern id="engGridMajor" width="100" height="100" patternUnits="userSpaceOnUse">
+                  <path d="M 100 0 L 0 0 0 100" fill="none" stroke="#e0e0e0" stroke-width="0.8"/>
                 </pattern>
               </defs>
-              <rect width="400" height="420" fill="url(#aboutGrid)"/>
 
-              <!-- Isometric cube -->
-              <g transform="translate(200,195)">
-                <!-- Back edges (gray) -->
-                <line x1="0"   y1="-90" x2="78"  y2="-45" stroke="#d4d4d4" stroke-width="1"/>
-                <line x1="0"   y1="-90" x2="-78" y2="-45" stroke="#d4d4d4" stroke-width="1"/>
+              <!-- Engineering paper background -->
+              <rect width="400" height="440" fill="#fafafa"/>
+              <rect width="400" height="440" fill="url(#engGrid)"/>
+              <rect width="400" height="440" fill="url(#engGridMajor)"/>
 
-                <!-- Left face -->
-                <polygon points="-78,-45 0,0 0,90 -78,45" fill="#f8f8f8" stroke="#0a0a0a" stroke-width="1.2"/>
-                <!-- Right face -->
-                <polygon points="78,-45 0,0 0,90 78,45"   fill="#f0f0f0" stroke="#0a0a0a" stroke-width="1.2"/>
-                <!-- Top face -->
-                <polygon points="0,-90 78,-45 0,0 -78,-45" fill="#ffffff" stroke="#0a0a0a" stroke-width="1.2"/>
+              <!-- Drawing border -->
+              <rect x="8" y="8" width="384" height="424" fill="none" stroke="#d4d4d4" stroke-width="0.8"/>
+              <rect x="12" y="12" width="376" height="416" fill="none" stroke="#e8e8e8" stroke-width="0.4"/>
 
-                <!-- Scan lines on left face -->
-                <line x1="-78" y1="10" x2="0" y2="10"  stroke="#c8c8c8" stroke-width="0.6" stroke-dasharray="3 2"/>
-                <line x1="-78" y1="25" x2="0" y2="25"  stroke="#c8c8c8" stroke-width="0.6" stroke-dasharray="3 2"/>
-                <line x1="-78" y1="40" x2="0" y2="40"  stroke="#c8c8c8" stroke-width="0.6" stroke-dasharray="3 2"/>
-                <line x1="-78" y1="55" x2="0" y2="55"  stroke="#c8c8c8" stroke-width="0.6" stroke-dasharray="3 2"/>
-                <line x1="-78" y1="70" x2="0" y2="70"  stroke="#c8c8c8" stroke-width="0.6" stroke-dasharray="3 2"/>
+              <!-- ── GATE ELEVATION DRAWING ── -->
+              <!-- Left post (hollow profile) -->
+              <rect x="44"  y="68"  width="16" height="270" fill="#f5f5f5" stroke="#262626" stroke-width="1.4"/>
+              <rect x="47"  y="71"  width="10" height="264" fill="#ececec" stroke="#a3a3a3" stroke-width="0.5"/>
 
-                <!-- Scan lines on right face -->
-                <line x1="0" y1="10" x2="78" y2="10"  stroke="#b8b8b8" stroke-width="0.6" stroke-dasharray="3 2"/>
-                <line x1="0" y1="25" x2="78" y2="25"  stroke="#b8b8b8" stroke-width="0.6" stroke-dasharray="3 2"/>
-                <line x1="0" y1="40" x2="78" y2="40"  stroke="#b8b8b8" stroke-width="0.6" stroke-dasharray="3 2"/>
-                <line x1="0" y1="55" x2="78" y2="55"  stroke="#b8b8b8" stroke-width="0.6" stroke-dasharray="3 2"/>
-                <line x1="0" y1="70" x2="78" y2="70"  stroke="#b8b8b8" stroke-width="0.6" stroke-dasharray="3 2"/>
+              <!-- Right post -->
+              <rect x="340" y="68"  width="16" height="270" fill="#f5f5f5" stroke="#262626" stroke-width="1.4"/>
+              <rect x="343" y="71"  width="10" height="264" fill="#ececec" stroke="#a3a3a3" stroke-width="0.5"/>
 
-                <!-- Point cloud dots scattered around -->
-                <circle cx="-110" cy="-55" r="2.2" fill="#a3a3a3"/>
-                <circle cx="-120" cy="-10" r="1.5" fill="#c0c0c0"/>
-                <circle cx="-95"  cy="38"  r="2"   fill="#a3a3a3"/>
-                <circle cx="-130" cy="20"  r="1.2" fill="#d4d4d4"/>
-                <circle cx="-105" cy="70"  r="1.8" fill="#b8b8b8"/>
-                <circle cx="115"  cy="-50" r="2.2" fill="#a3a3a3"/>
-                <circle cx="125"  cy="-5"  r="1.5" fill="#c0c0c0"/>
-                <circle cx="100"  cy="40"  r="2"   fill="#a3a3a3"/>
-                <circle cx="135"  cy="15"  r="1.2" fill="#d4d4d4"/>
-                <circle cx="-30"  cy="-120" r="2"  fill="#a3a3a3"/>
-                <circle cx="15"   cy="-130" r="1.5" fill="#c0c0c0"/>
-                <circle cx="55"   cy="-115" r="2.2" fill="#a3a3a3"/>
-                <circle cx="-50"  cy="-105" r="1.5" fill="#d4d4d4"/>
-                <circle cx="70"   cy="-125" r="1.2" fill="#c0c0c0"/>
+              <!-- Top rail -->
+              <rect x="60"  y="74"  width="280" height="13" fill="#f0f0f0" stroke="#262626" stroke-width="1.2"/>
+              <rect x="62"  y="76"  width="276" height="5"  fill="#e8e8e8" stroke="none"/>
 
-                <!-- Dimension annotations -->
-                <line x1="-78" y1="105" x2="78"  y2="105" stroke="#a3a3a3" stroke-width="0.8"/>
-                <line x1="-78" y1="100" x2="-78" y2="110" stroke="#a3a3a3" stroke-width="0.8"/>
-                <line x1="78"  y1="100" x2="78"  y2="110" stroke="#a3a3a3" stroke-width="0.8"/>
-                <text x="0" y="102" font-size="9" fill="#737373" text-anchor="middle" font-family="Inter,sans-serif" font-weight="400">156.00 mm</text>
+              <!-- Mid rail -->
+              <rect x="60"  y="195" width="280" height="11" fill="#f0f0f0" stroke="#262626" stroke-width="1.2"/>
+              <rect x="62"  y="197" width="276" height="4"  fill="#e8e8e8" stroke="none"/>
 
-                <line x1="90"  y1="-45" x2="90"  y2="45"  stroke="#a3a3a3" stroke-width="0.8"/>
-                <line x1="85"  y1="-45" x2="95"  y2="-45" stroke="#a3a3a3" stroke-width="0.8"/>
-                <line x1="85"  y1="45"  x2="95"  y2="45"  stroke="#a3a3a3" stroke-width="0.8"/>
-                <text x="104" y="4" font-size="9" fill="#737373" text-anchor="start" font-family="Inter,sans-serif" font-weight="400">90.00</text>
+              <!-- Bottom rail -->
+              <rect x="60"  y="314" width="280" height="13" fill="#f0f0f0" stroke="#262626" stroke-width="1.2"/>
+              <rect x="62"  y="316" width="276" height="5"  fill="#e8e8e8" stroke="none"/>
 
-                <!-- CAD annotation -->
-                <line x1="78" y1="-45" x2="110" y2="-75" stroke="#b8b8b8" stroke-width="0.8"/>
-                <circle cx="78" cy="-45" r="2.5" fill="none" stroke="#b8b8b8" stroke-width="0.8"/>
-                <text x="114" y="-77" font-size="8" fill="#737373" font-family="Inter,sans-serif">R: 0.24 mm</text>
+              <!-- Vertical pickets (7) — with spear tops -->
+              <!-- Picket helper macro: x positions 82,122,162,200,238,278,318 -->
+              <!-- Picket 1 -->
+              <polygon points="86,68 90,60 94,68" fill="#d4d4d4" stroke="#262626" stroke-width="1"/>
+              <rect x="86" y="68" width="8" height="259" fill="#f0f0f0" stroke="#262626" stroke-width="1"/>
+              <!-- Picket 2 -->
+              <polygon points="122,68 126,60 130,68" fill="#d4d4d4" stroke="#262626" stroke-width="1"/>
+              <rect x="122" y="68" width="8" height="259" fill="#f0f0f0" stroke="#262626" stroke-width="1"/>
+              <!-- Picket 3 -->
+              <polygon points="158,68 162,60 166,68" fill="#d4d4d4" stroke="#262626" stroke-width="1"/>
+              <rect x="158" y="68" width="8" height="259" fill="#f0f0f0" stroke="#262626" stroke-width="1"/>
+              <!-- Picket 4 (center) -->
+              <polygon points="196,68 200,60 204,68" fill="#d4d4d4" stroke="#262626" stroke-width="1"/>
+              <rect x="196" y="68" width="8" height="259" fill="#f0f0f0" stroke="#262626" stroke-width="1"/>
+              <!-- Picket 5 -->
+              <polygon points="226,68 230,60 234,68" fill="#d4d4d4" stroke="#262626" stroke-width="1"/>
+              <rect x="226" y="68" width="8" height="259" fill="#f0f0f0" stroke="#262626" stroke-width="1"/>
+              <!-- Picket 6 -->
+              <polygon points="262,68 266,60 270,68" fill="#d4d4d4" stroke="#262626" stroke-width="1"/>
+              <rect x="262" y="68" width="8" height="259" fill="#f0f0f0" stroke="#262626" stroke-width="1"/>
+              <!-- Picket 7 -->
+              <polygon points="298,68 302,60 306,68" fill="#d4d4d4" stroke="#262626" stroke-width="1"/>
+              <rect x="298" y="68" width="8" height="259" fill="#f0f0f0" stroke="#262626" stroke-width="1"/>
 
-                <!-- Accuracy badge -->
-                <rect x="-75" y="-88" width="80" height="18" fill="none" stroke="#d4d4d4" stroke-width="0.8"/>
-                <text x="-35" y="-76" font-size="8" fill="#525252" text-anchor="middle" font-family="Inter,sans-serif" font-weight="500">±1 mm ACCURACY</text>
-              </g>
+              <!-- ── DIMENSION LINES ── -->
+              <!-- Width dimension (bottom) -->
+              <line x1="44"  y1="358" x2="356" y2="358" stroke="#a3a3a3" stroke-width="0.8"/>
+              <line x1="44"  y1="352" x2="44"  y2="364" stroke="#a3a3a3" stroke-width="0.8"/>
+              <line x1="356" y1="352" x2="356" y2="364" stroke="#a3a3a3" stroke-width="0.8"/>
+              <rect x="158" y="351" width="84" height="14" fill="#fafafa"/>
+              <text x="200" y="361" font-size="8.5" fill="#525252" text-anchor="middle" font-family="Inter,sans-serif" font-weight="500">1 850 mm</text>
+
+              <!-- Height dimension (right side) -->
+              <line x1="368" y1="68"  x2="368" y2="338" stroke="#a3a3a3" stroke-width="0.8"/>
+              <line x1="362" y1="68"  x2="374" y2="68"  stroke="#a3a3a3" stroke-width="0.8"/>
+              <line x1="362" y1="338" x2="374" y2="338" stroke="#a3a3a3" stroke-width="0.8"/>
+              <rect x="358" y="190" width="24" height="14" fill="#fafafa"/>
+              <text x="381" y="201" font-size="8" fill="#525252" text-anchor="middle" font-family="Inter,sans-serif" font-weight="500" transform="rotate(90,381,198)">1 200 mm</text>
+
+              <!-- Picket spacing callout -->
+              <line x1="86"  y1="44" x2="122" y2="44" stroke="#a3a3a3" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+              <line x1="86"  y1="40" x2="86"  y2="48" stroke="#a3a3a3" stroke-width="0.7"/>
+              <line x1="122" y1="40" x2="122" y2="48" stroke="#a3a3a3" stroke-width="0.7"/>
+              <text x="104" y="41" font-size="7" fill="#737373" text-anchor="middle" font-family="Inter,sans-serif">36 mm</text>
+
+              <!-- ── GOLD CALLOUT ANNOTATIONS ── -->
+              <!-- Top-left callout: profile section -->
+              <line x1="44"  y1="100" x2="30"  y2="125" stroke="#C4973A" stroke-width="0.8"/>
+              <circle cx="44" cy="100" r="2" fill="#C4973A"/>
+              <rect x="14" y="125" width="62" height="20" fill="#fdf8f0" stroke="#C4973A" stroke-width="0.8"/>
+              <text x="45" y="134.5" font-size="7.5" fill="#C4973A" text-anchor="middle" font-family="Inter,sans-serif" font-weight="600">80×40mm</text>
+              <text x="45" y="142" font-size="6.5" fill="#a3a3a3" text-anchor="middle" font-family="Inter,sans-serif">Al Profile</text>
+
+              <!-- Top-right callout: rail thickness -->
+              <line x1="340" y1="82" x2="355" y2="110" stroke="#C4973A" stroke-width="0.8"/>
+              <circle cx="340" cy="82" r="2" fill="#C4973A"/>
+              <rect x="330" y="110" width="56" height="20" fill="#fdf8f0" stroke="#C4973A" stroke-width="0.8"/>
+              <text x="358" y="119.5" font-size="7.5" fill="#C4973A" text-anchor="middle" font-family="Inter,sans-serif" font-weight="600">t = 2 mm</text>
+              <text x="358" y="127" font-size="6.5" fill="#a3a3a3" text-anchor="middle" font-family="Inter,sans-serif">Wall thickness</text>
+
+              <!-- ── SCAN OVERLAY (horizontal dashed line) ── -->
+              <line x1="20" y1="200" x2="380" y2="200" stroke="#C4973A" stroke-width="0.6" stroke-dasharray="4 3" opacity="0.35"/>
+              <text x="22" y="197" font-size="6" fill="#C4973A" font-family="Inter,sans-serif" opacity="0.6">SCAN LINE</text>
+
+              <!-- Scattered point cloud dots -->
+              <circle cx="26"  cy="80"  r="1.5" fill="#c0c0c0" opacity="0.7"/>
+              <circle cx="22"  cy="150" r="1"   fill="#d4d4d4" opacity="0.7"/>
+              <circle cx="28"  cy="220" r="1.5" fill="#a3a3a3" opacity="0.7"/>
+              <circle cx="24"  cy="290" r="1"   fill="#c0c0c0" opacity="0.7"/>
+              <circle cx="380" cy="90"  r="1.5" fill="#c0c0c0" opacity="0.7"/>
+              <circle cx="384" cy="165" r="1"   fill="#a3a3a3" opacity="0.7"/>
+              <circle cx="378" cy="240" r="1.5" fill="#d4d4d4" opacity="0.7"/>
+
+              <!-- ── TITLE BLOCK ── -->
+              <rect x="14" y="376" width="372" height="48" fill="#f5f5f5" stroke="#d4d4d4" stroke-width="0.8"/>
+              <line x1="14" y1="389" x2="386" y2="389" stroke="#d4d4d4" stroke-width="0.5"/>
+              <line x1="200" y1="376" x2="200" y2="424" stroke="#d4d4d4" stroke-width="0.5"/>
+              <text x="107" y="386" font-size="7" fill="#737373" text-anchor="middle" font-family="Inter,sans-serif" font-weight="600" letter-spacing="0.08em">ALUMINUM GATE ELEVATION</text>
+              <text x="107" y="404" font-size="8.5" fill="#0a0a0a" text-anchor="middle" font-family="Inter,sans-serif" font-weight="500">FRONT VIEW — 1:20</text>
+              <text x="107" y="416" font-size="7" fill="#a3a3a3" text-anchor="middle" font-family="Inter,sans-serif">Rev. A — Snapir Design</text>
+              <text x="293" y="386" font-size="7" fill="#737373" text-anchor="middle" font-family="Inter,sans-serif" font-weight="600" letter-spacing="0.08em">MATERIAL / TOLERANCE</text>
+              <text x="293" y="401" font-size="8" fill="#0a0a0a" text-anchor="middle" font-family="Inter,sans-serif">Aluminium 6063-T5</text>
+              <text x="293" y="413" font-size="7.5" fill="#C4973A" text-anchor="middle" font-family="Inter,sans-serif" font-weight="600">±1 mm general tolerance</text>
             </svg>
           </div>
 
@@ -627,7 +690,9 @@
               <span class="client-tag" data-i18n="clients.snapir.tag">Primary Partner</span>
               <span class="client-country" data-i18n="clients.snapir.country">Israel</span>
             </div>
-            <h3 class="client-name">Snapir</h3>
+            <h3 class="client-name">
+              <a href="https://www.snapir-il.com/en/" target="_blank" rel="noopener noreferrer" class="client-name-link">Snapir ↗</a>
+            </h3>
             <p class="client-desc" data-i18n="clients.snapir.desc">An established Israeli manufacturer producing high-quality aluminum gates, fences, banisters, and architectural metalwork for private, commercial, and public construction. Precise measurements are the foundation of every product they deliver.</p>
             <div class="client-industry">
               <span data-i18n="clients.snapir.industry">Architectural Metalwork &nbsp;·&nbsp; Aluminum Construction</span>

@@ -18,7 +18,7 @@ const translations = {
     'nav.about':    'About',
     'nav.contact':  'Contact',
 
-    'hero.eyebrow': '3D Scanning Studio — Bulgaria',
+    'hero.eyebrow': '3D Measurement Studio — Bulgaria',
     'hero.headline':'Precision 3D Scanning for Construction Excellence',
     'hero.sub':     'We transform real-world structures into exact digital CAD models using LiDAR technology — powering construction and manufacturing worldwide.',
     'hero.cta1':    'Our Services',
@@ -65,11 +65,13 @@ const translations = {
 
     'about.label':  'Who We Are',
     'about.heading':'About Snapir Design',
-    'about.p1':     'We are a Bulgaria-based 3D engineering studio specializing in LiDAR scanning and reverse engineering for construction and manufacturing industries.',
-    'about.p2':     'Our primary partner is Snapir — an Israeli leader in precision aluminum construction products including gates, fences, banisters, and architectural elements for private, commercial, and public clients.',
-    'about.p3':     'We bridge advanced scanning technology with construction precision — turning real-world structures into exact digital models that power manufacturing and building projects. We welcome new clients globally.',
-    'about.badge1': 'Based in Bulgaria',
-    'about.badge2': 'Serving clients worldwide',
+    'about.p1':          'Founded in 2016 by Ihsan Serbest, Snapir Design is a Bulgaria-based 3D engineering studio specializing in LiDAR scanning and reverse engineering for construction and manufacturing industries.',
+    'about.p2':          'Our primary partner is Snapir — an Israeli leader in precision aluminum construction products including gates, fences, banisters, and architectural elements for private, commercial, and public clients.',
+    'about.p3':          'We bridge advanced scanning technology with construction precision — turning real-world structures into exact digital models that power manufacturing and building projects. We are open to new clients globally.',
+    'about.founderLabel':'Founder',
+    'about.founderSince':'Since 2016',
+    'about.badge1':      'Based in Bulgaria',
+    'about.badge2':      'Serving clients worldwide',
 
     'clients.label':           'Our Partners',
     'clients.heading':         'Trusted By',
@@ -110,7 +112,7 @@ const translations = {
     'nav.about':    'За нас',
     'nav.contact':  'Контакти',
 
-    'hero.eyebrow': 'Студио за 3D сканиране — България',
+    'hero.eyebrow': 'Студио за 3D измервания — България',
     'hero.headline':'Прецизно 3D лазерно сканиране за строително съвършенство',
     'hero.sub':     'Превръщаме реални обекти в точни CAD модели чрез LiDAR технология — за производство и строителство по целия свят.',
     'hero.cta1':    'Нашите услуги',
@@ -155,13 +157,15 @@ const translations = {
     'software.solidworks.role':'3D CAD, монтажни схеми и инженерни чертежи',
     'software.solidworks.desc':'Финален 3D модел, монтажно проектиране и детайлни инженерни чертежи, използвани директно от клиентите.',
 
-    'about.label':  'Кои сме ние',
-    'about.heading':'За Snapir Design',
-    'about.p1':     'Ние сме студио за 3D инженерство, базирано в България, специализирано в LiDAR сканиране и обратно инженерство за строителната и производствената индустрия.',
-    'about.p2':     'Нашият основен партньор е Snapir — израелски лидер в прецизни алуминиеви конструкционни продукти, включително порти, огради, парапети и архитектурни елементи.',
-    'about.p3':     'Свързваме съвременната технология за сканиране с конструкционна прецизност — превръщаме реални обекти в точни цифрови модели, захранващи производствени и строителни проекти. Отворени сме за нови клиенти по целия свят.',
-    'about.badge1': 'Базирани в България',
-    'about.badge2': 'Обслужваме клиенти по целия свят',
+    'about.label':       'Кои сме ние',
+    'about.heading':     'За Snapir Design',
+    'about.p1':          'Основана през 2016 г. от Ихсан Сербест, Snapir Design е студио за 3D инженерство, базирано в България, специализирано в LiDAR сканиране и обратно инженерство за строителната и производствената индустрия.',
+    'about.p2':          'Нашият основен партньор е Snapir — израелски лидер в прецизни алуминиеви конструкционни продукти, включително порти, огради, парапети и архитектурни елементи.',
+    'about.p3':          'Свързваме съвременната технология за сканиране с конструкционна прецизност — превръщаме реални обекти в точни цифрови модели, захранващи производствени и строителни проекти. Отворени сме за нови клиенти по целия свят.',
+    'about.founderLabel':'Основател',
+    'about.founderSince':'От 2016 г.',
+    'about.badge1':      'Базирани в България',
+    'about.badge2':      'Обслужваме клиенти по целия свят',
 
     'clients.label':           'Нашите партньори',
     'clients.heading':         'Доверяват ни се',
@@ -202,7 +206,7 @@ const translations = {
     'nav.about':    'אודות',
     'nav.contact':  'צרו קשר',
 
-    'hero.eyebrow': 'סטודיו לסריקת לייזר תלת-ממדית — בולגריה',
+    'hero.eyebrow': 'סטודיו למדידות תלת-ממדיות — בולגריה',
     'hero.headline':'סריקת לייזר תלת-ממדית מדויקת לצוינות בבנייה',
     'hero.sub':     'אנו הופכים מבנים אמיתיים לדגמי CAD מדויקים בטכנולוגיית LiDAR — לייצור ובנייה ברחבי העולם.',
     'hero.cta1':    'השירותים שלנו',
@@ -247,13 +251,15 @@ const translations = {
     'software.solidworks.role':'CAD תלת-ממדי, מכלולים ושרטוטים הנדסיים',
     'software.solidworks.desc':'דגום תלת-ממדי סופי, עיצוב מכלולים ושרטוטים הנדסיים מפורטים המשמשים ישירות את הלקוחות לייצור ובנייה.',
 
-    'about.label':  'מי אנחנו',
-    'about.heading':'אודות Snapir Design',
-    'about.p1':     'אנו סטודיו הנדסי תלת-ממדי ממוקם בבולגריה, המתמחה בסריקת LiDAR והנדסה לאחור לתעשיות הבנייה והייצור.',
-    'about.p2':     'השותף העיקרי שלנו הוא Snapir — מוביל ישראלי במוצרי בנייה מאלומיניום מדויקים, כולל שערים, גדרות, מעקות ואלמנטים אדריכליים ללקוחות פרטיים, מסחריים וציבוריים.',
-    'about.p3':     'אנו מגשרים בין טכנולוגיית סריקה מתקדמת לבין דיוק בנייה — הופכים מבנים אמיתיים לדגמים דיגיטליים מדויקים המניעים פרויקטי ייצור ובנייה. אנו פתוחים ללקוחות חדשים ברחבי העולם.',
-    'about.badge1': 'ממוקמים בבולגריה',
-    'about.badge2': 'משרתים לקוחות ברחבי העולם',
+    'about.label':       'מי אנחנו',
+    'about.heading':     'אודות Snapir Design',
+    'about.p1':          'Snapir Design נוסדה בשנת 2016 על ידי איחסאן סרבסט, וממוקמת בבולגריה. הסטודיו מתמחה בסריקת LiDAR והנדסה לאחור לתעשיות הבנייה והייצור.',
+    'about.p2':          'השותף העיקרי שלנו הוא Snapir — מוביל ישראלי במוצרי בנייה מאלומיניום מדויקים, כולל שערים, גדרות, מעקות ואלמנטים אדריכליים ללקוחות פרטיים, מסחריים וציבוריים.',
+    'about.p3':          'אנו מגשרים בין טכנולוגיית סריקה מתקדמת לבין דיוק בנייה — הופכים מבנים אמיתיים לדגמים דיגיטליים מדויקים המניעים פרויקטי ייצור ובנייה. אנו פתוחים ללקוחות חדשים ברחבי העולם.',
+    'about.founderLabel':'מייסד',
+    'about.founderSince':'מאז 2016',
+    'about.badge1':      'ממוקמים בבולגריה',
+    'about.badge2':      'משרתים לקוחות ברחבי העולם',
 
     'clients.label':           'השותפים שלנו',
     'clients.heading':         'סומכים עלינו',
@@ -323,21 +329,18 @@ function setLanguage(lang) {
     btn.classList.toggle('active', pressed);
   });
 
-  // Re-run typewriter if hero is visible
+  // Re-run typewriter — typewrite() handles its own cancellation
   const headline = document.getElementById('hero-headline');
   if (headline) {
     const newText = translations[lang]['hero.headline'] || '';
     const textEl  = headline.querySelector('.headline-text');
     if (textEl) {
-      textEl.textContent = '';
       headline.classList.add('typing');
       typewrite(textEl, newText, 38, () => {
         headline.classList.remove('typing');
       });
     }
   }
-
-  // Re-announce marquee items (marquee is decorative, no i18n needed)
 
   localStorage.setItem('sd-lang', lang);
 }
@@ -358,18 +361,27 @@ function initLangSwitcher() {
 }
 
 /* ──────────────────────────────────────────────────────────
-   TYPEWRITER
+   TYPEWRITER — with cancellation to prevent race conditions
 ────────────────────────────────────────────────────────── */
+let _twCancel = null; // global cancellation token
+
 function typewrite(el, text, speed, onDone) {
+  // Cancel any previous running typewriter
+  if (_twCancel) { _twCancel.cancelled = true; }
+  const token = { cancelled: false };
+  _twCancel = token;
+
   let i = 0;
   el.textContent = '';
 
   function tick() {
+    if (token.cancelled) return;
     if (i < text.length) {
       el.textContent += text[i++];
-      setTimeout(tick, speed + Math.random() * 18);
-    } else if (onDone) {
-      onDone();
+      setTimeout(tick, speed + Math.random() * 16);
+    } else {
+      _twCancel = null;
+      if (onDone) onDone();
     }
   }
   tick();
@@ -386,7 +398,6 @@ function initTypewriter() {
   textEl.textContent = '';
   headline.classList.add('typing');
 
-  // Small delay so it starts after hero entrance animation
   setTimeout(() => {
     typewrite(textEl, original, 38, () => {
       headline.classList.remove('typing');
@@ -394,92 +405,7 @@ function initTypewriter() {
   }, 700);
 }
 
-/* ──────────────────────────────────────────────────────────
-   CANVAS PARTICLE FIELD (Hero)
-────────────────────────────────────────────────────────── */
-function initCanvas() {
-  const canvas = document.getElementById('hero-canvas');
-  if (!canvas) return;
-
-  const ctx = canvas.getContext('2d');
-  let W, H, particles;
-  const COUNT = 90;
-  const MAX_DIST = 110;
-
-  function resize() {
-    W = canvas.width  = canvas.offsetWidth;
-    H = canvas.height = canvas.offsetHeight;
-  }
-
-  function createParticles() {
-    particles = [];
-    for (let i = 0; i < COUNT; i++) {
-      particles.push({
-        x:  Math.random() * W,
-        y:  Math.random() * H,
-        vx: (Math.random() - 0.5) * 0.22,
-        vy: (Math.random() - 0.5) * 0.22,
-        r:  Math.random() * 1.5 + 0.5,
-        a:  Math.random() * 0.35 + 0.08,
-      });
-    }
-  }
-
-  function draw() {
-    ctx.clearRect(0, 0, W, H);
-
-    // Draw connecting lines
-    for (let i = 0; i < COUNT; i++) {
-      for (let j = i + 1; j < COUNT; j++) {
-        const dx   = particles[i].x - particles[j].x;
-        const dy   = particles[i].y - particles[j].y;
-        const dist = Math.sqrt(dx * dx + dy * dy);
-        if (dist < MAX_DIST) {
-          const opacity = (1 - dist / MAX_DIST) * 0.055;
-          ctx.beginPath();
-          ctx.moveTo(particles[i].x, particles[i].y);
-          ctx.lineTo(particles[j].x, particles[j].y);
-          ctx.strokeStyle = `rgba(0,0,0,${opacity})`;
-          ctx.lineWidth   = 0.5;
-          ctx.stroke();
-        }
-      }
-    }
-
-    // Draw dots
-    particles.forEach(p => {
-      ctx.beginPath();
-      ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-      ctx.fillStyle = `rgba(0,0,0,${p.a})`;
-      ctx.fill();
-
-      // Update position
-      p.x += p.vx;
-      p.y += p.vy;
-
-      // Wrap
-      if (p.x < -10)  p.x = W + 10;
-      if (p.x > W+10) p.x = -10;
-      if (p.y < -10)  p.y = H + 10;
-      if (p.y > H+10) p.y = -10;
-    });
-
-    requestAnimationFrame(draw);
-  }
-
-  resize();
-  createParticles();
-  draw();
-
-  let resizeTimer;
-  window.addEventListener('resize', () => {
-    clearTimeout(resizeTimer);
-    resizeTimer = setTimeout(() => {
-      resize();
-      createParticles();
-    }, 200);
-  });
-}
+/* Hero background is now pure CSS animated orbs — no JS needed */
 
 /* ──────────────────────────────────────────────────────────
    PROGRESS BAR
@@ -618,55 +544,78 @@ function initScrollAnimations() {
 }
 
 /* ──────────────────────────────────────────────────────────
-   CONTACT FORM
+   CONTACT FORM — Formspree
+   Setup: go to https://formspree.io, sign up free, create a
+   form for snapirdesignbg@gmail.com, then paste your Form ID
+   (the part after /f/) into FORMSPREE_ID below.
 ────────────────────────────────────────────────────────── */
+const FORMSPREE_ID = 'xvzvbebr';
+
 function initContactForm() {
   const form    = document.getElementById('contact-form');
   const success = document.getElementById('form-success');
   if (!form || !success) return;
 
-  form.addEventListener('submit', e => {
+  function showSuccess() {
+    form.hidden = true;
+    success.removeAttribute('hidden');
+    success.hidden = false;
+    form.reset();
+  }
+
+  function showFieldError(field) {
+    field.style.borderColor = '#C4973A';
+    field.addEventListener('input', () => { field.style.borderColor = ''; }, { once: true });
+  }
+
+  form.addEventListener('submit', async (e) => {
     e.preventDefault();
 
-    // Basic client-side validation
-    const name  = form.querySelector('#f-name');
-    const email = form.querySelector('#f-email');
-    const msg   = form.querySelector('#f-message');
-    let valid   = true;
+    const nameEl  = form.querySelector('#f-name');
+    const emailEl = form.querySelector('#f-email');
+    const msgEl   = form.querySelector('#f-message');
+    const btn     = form.querySelector('button[type="submit"]');
 
-    [name, email, msg].forEach(field => {
-      if (!field) return;
-      field.style.borderColor = '';
-      if (!field.value.trim()) {
-        field.style.borderColor = '#737373';
-        valid = false;
-      }
-    });
-
-    if (email && email.value && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value)) {
-      email.style.borderColor = '#737373';
-      valid = false;
+    // Validate
+    let valid = true;
+    [nameEl, emailEl, msgEl].forEach(f => { if (f && !f.value.trim()) { showFieldError(f); valid = false; } });
+    if (emailEl && emailEl.value && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailEl.value)) {
+      showFieldError(emailEl); valid = false;
     }
-
     if (!valid) return;
 
-    // Simulate submission (no backend)
-    const btn = form.querySelector('button[type="submit"]');
-    if (btn) {
-      const orig = btn.textContent;
-      btn.disabled    = true;
-      btn.textContent = '...';
-      setTimeout(() => {
-        form.hidden    = true;
-        success.hidden = false;
-        success.removeAttribute('hidden');
-        form.reset();
-      }, 800);
-    } else {
-      form.hidden    = true;
-      success.hidden = false;
-      success.removeAttribute('hidden');
-      form.reset();
+    // Submit
+    const origText    = btn ? btn.textContent : '';
+    if (btn) { btn.disabled = true; btn.textContent = '···'; }
+
+    try {
+      const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
+        method:  'POST',
+        headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name:    nameEl  ? nameEl.value.trim()  : '',
+          company: (form.querySelector('#f-company') || {}).value || '',
+          email:   emailEl ? emailEl.value.trim()  : '',
+          message: msgEl   ? msgEl.value.trim()    : '',
+        }),
+      });
+
+      if (res.ok) {
+        showSuccess();
+      } else {
+        const data = await res.json().catch(() => ({}));
+        const msg  = (data.errors || []).map(er => er.message).join(', ') || 'Submission failed. Please email us directly.';
+        if (btn) { btn.disabled = false; btn.textContent = origText; }
+        alert(msg);
+      }
+    } catch {
+      // Network error fallback — open mail client
+      if (btn) { btn.disabled = false; btn.textContent = origText; }
+      const subject = encodeURIComponent('Inquiry from Snapir Design website');
+      const body    = encodeURIComponent(
+        `Name: ${nameEl?.value}\nEmail: ${emailEl?.value}\nMessage: ${msgEl?.value}`
+      );
+      window.location.href = `mailto:snapirdesignbg@gmail.com?subject=${subject}&body=${body}`;
     }
   });
 }
@@ -718,7 +667,6 @@ function initActiveNav() {
 document.addEventListener('DOMContentLoaded', () => {
   initLangSwitcher();
   initTypewriter();
-  initCanvas();
   initProgressBar();
   initNavbar();
   initMobileMenu();
