@@ -2,781 +2,339 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Snapir Design — 3D Scanning &amp; Reverse Engineering</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Snapir Design BG | Reverse engineering in Geomagic Design X</title>
 
-  <!-- Primary Meta -->
-  <meta name="description" content="Snapir Design is a Bulgaria-based 3D scanning and reverse engineering studio delivering precision LiDAR scans and CAD models for construction and manufacturing clients worldwide.">
-  <meta name="keywords" content="3D scanning, LiDAR, reverse engineering, point cloud, CAD, FARO Scene, Geomagic Design X, SolidWorks, Bulgaria, construction, manufacturing">
-  <meta name="author" content="Snapir Design">
+  <meta name="description" content="Snapir Design BG turns 3D scan data into solid models in Geomagic Design X. Based in Stara Zagora, Bulgaria, with on-site Leica laser measurement for interior projects.">
+  <meta name="keywords" content="reverse engineering, architecture, buildings, Geomagic Design X, scan to CAD, point cloud to solid, 3D solid modeling, Leica laser scanning, on-site measurement, Stara Zagora, Bulgaria">
+  <meta name="author" content="Snapir Design BG">
   <meta name="robots" content="index, follow">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0f1214">
+  <link rel="canonical" href="https://snapirdesignbg.com/">
+  <link rel="author" href="https://github.com/SeventhSG">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
 
-  <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Snapir Design — 3D Scanning &amp; Reverse Engineering">
-  <meta property="og:description" content="Precision 3D scanning and reverse engineering for construction and manufacturing. Based in Bulgaria, serving clients worldwide.">
-  <meta property="og:url" content="https://snapirdesign.com">
-  <meta property="og:site_name" content="Snapir Design">
+  <meta property="og:title" content="Snapir Design BG | Reverse engineering in Geomagic Design X">
+  <meta property="og:description" content="From 3D scan data to engineered solid models. Based in Stara Zagora, Bulgaria.">
+  <meta property="og:url" content="https://snapirdesignbg.com/">
+  <meta property="og:site_name" content="Snapir Design BG">
   <meta property="og:locale" content="en_US">
-
-  <!-- Twitter Card -->
+  <meta property="og:image" content="https://snapirdesignbg.com/assets/og-image.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Snapir Design — 3D Scanning &amp; Reverse Engineering">
-  <meta name="twitter:description" content="Precision 3D scanning and reverse engineering for construction and manufacturing.">
+  <meta name="twitter:title" content="Snapir Design BG | Reverse engineering in Geomagic Design X">
+  <meta name="twitter:description" content="From 3D scan data to engineered solid models.">
+  <meta name="twitter:image" content="https://snapirdesignbg.com/assets/og-image.png">
 
-  <!-- Hreflang -->
-  <link rel="alternate" hreflang="en" href="https://snapirdesign.com">
-  <link rel="alternate" hreflang="bg" href="https://snapirdesign.com?lang=bg">
-  <link rel="alternate" hreflang="he" href="https://snapirdesign.com?lang=he">
-  <link rel="alternate" hreflang="x-default" href="https://snapirdesign.com">
+  <link rel="alternate" hreflang="en" href="https://snapirdesignbg.com/">
+  <link rel="alternate" hreflang="bg" href="https://snapirdesignbg.com/?lang=bg">
+  <link rel="alternate" hreflang="tr" href="https://snapirdesignbg.com/?lang=tr">
+  <link rel="alternate" hreflang="he" href="https://snapirdesignbg.com/?lang=he">
+  <link rel="alternate" hreflang="x-default" href="https://snapirdesignbg.com/">
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-
-  <!-- Styles -->
+  <link rel="preload" href="fonts/ibm-plex-sans-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
 
-  <!-- Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Snapir Design",
-    "description": "3D scanning and reverse engineering studio based in Bulgaria, delivering precision LiDAR scans and CAD models for construction and manufacturing clients worldwide.",
-    "url": "https://snapirdesign.com",
+    "@type": "ProfessionalService",
+    "name": "Snapir Design BG",
+    "description": "Reverse engineering and 3D solid modeling from 3D scan data in Geomagic Design X, with on-site Leica laser measurement for interior projects in Bulgaria.",
+    "url": "https://snapirdesignbg.com/",
     "address": {
       "@type": "PostalAddress",
-      "addressCountry": "BG",
-      "addressRegion": "Bulgaria"
-    },
-    "serviceType": [
-      "3D Laser Scanning",
-      "Reverse Engineering",
-      "CAD Modeling",
-      "Point Cloud Processing",
-      "Engineering Deliverables"
-    ],
-    "areaServed": "Worldwide",
-    "knowsLanguage": ["en", "bg", "he"],
-    "foundingLocation": {
-      "@type": "Place",
+      "addressLocality": "Stara Zagora",
       "addressCountry": "BG"
+    },
+    "knowsLanguage": ["en", "bg", "tr", "he"],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Services",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reverse engineering in Geomagic Design X" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "On-site Leica laser measurement" } }
+      ]
     }
   }
   </script>
 </head>
 <body>
 
-  <!-- Skip to content -->
-  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <a href="#main-content" class="skip-link" data-i18n="skip">Skip to main content</a>
 
-  <!-- Progress Bar -->
-  <div class="progress-bar" id="progress-bar" role="progressbar" aria-label="Page scroll progress" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-
-  <!-- ═══════════════════════════════════════
-       NAVBAR
-  ═══════════════════════════════════════ -->
-  <header class="navbar" id="navbar">
-    <div class="navbar-inner">
-
-      <!-- Logo -->
-      <a href="#home" class="logo-link" aria-label="Snapir Design — Home">
-        <img
-          src="./logo-with-text.svg"
-          alt="Snapir Design"
-          class="logo-img"
-          loading="eager"
-          onerror="this.style.display='none';document.querySelectorAll('.logo-fallback').forEach(el=>el.style.display='block');"
-        >
-        <span class="logo-fallback" style="display:none" aria-hidden="true">SNAPIR DESIGN</span>
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo" data-i18n-aria="nav.home" aria-label="Snapir Design BG home">
+        <picture><source media="(max-width: 420px)" srcset="logo-mark.svg" width="62" height="40"><img src="logo-full.svg" alt="" width="281" height="40"></picture>
       </a>
 
-      <!-- Desktop Navigation -->
-      <nav class="nav-links" aria-label="Main navigation">
-        <a href="#home"     class="nav-link" data-i18n="nav.home">Home</a>
-        <a href="#services" class="nav-link" data-i18n="nav.services">Services</a>
-        <a href="#process"  class="nav-link" data-i18n="nav.process">Process</a>
-        <a href="#software" class="nav-link" data-i18n="nav.software">Software</a>
-        <a href="#about"    class="nav-link" data-i18n="nav.about">About</a>
-        <a href="#contact"  class="nav-link" data-i18n="nav.contact">Contact</a>
+      <nav class="nav-links" data-i18n-aria="nav.main" aria-label="Main navigation">
+        <a href="#reverse-engineering" data-i18n="nav.re">Reverse Engineering</a>
+        <a href="#measurement" data-i18n="nav.measure">On-Site Measurement</a>
+        <a href="#process" data-i18n="nav.process">How We Work</a>
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#clients" data-i18n="nav.clients">Partners</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
       </nav>
 
-      <!-- Right: Language + Hamburger -->
-      <div class="nav-right">
-        <div class="lang-switcher" role="group" aria-label="Language selection">
-          <button class="lang-btn active" data-lang="en" aria-pressed="true">EN</button>
-          <span class="lang-sep" aria-hidden="true">|</span>
-          <button class="lang-btn" data-lang="bg" aria-pressed="false">BG</button>
-          <span class="lang-sep" aria-hidden="true">|</span>
-          <button class="lang-btn" data-lang="he" aria-pressed="false">HE</button>
+      <div class="nav-end">
+        <div class="lang" role="group" data-i18n-aria="nav.language" aria-label="Language selection">
+          <button type="button" data-lang="en" aria-pressed="true">EN</button>
+          <button type="button" data-lang="bg" aria-pressed="false">BG</button>
+          <button type="button" data-lang="tr" aria-pressed="false">TR</button>
+          <button type="button" data-lang="he" aria-pressed="false">HE</button>
         </div>
-        <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-menu">
-          <span class="ham-line"></span>
-          <span class="ham-line"></span>
-          <span class="ham-line"></span>
+        <button type="button" class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="menu" data-i18n-aria="nav.menu" aria-label="Open navigation menu">
+          <span></span><span></span>
         </button>
       </div>
     </div>
 
-    <!-- Mobile Menu -->
-    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
-      <nav aria-label="Mobile navigation">
-        <a href="#home"     class="mobile-nav-link" data-i18n="nav.home">Home</a>
-        <a href="#services" class="mobile-nav-link" data-i18n="nav.services">Services</a>
-        <a href="#process"  class="mobile-nav-link" data-i18n="nav.process">Process</a>
-        <a href="#software" class="mobile-nav-link" data-i18n="nav.software">Software</a>
-        <a href="#about"    class="mobile-nav-link" data-i18n="nav.about">About</a>
-        <a href="#contact"  class="mobile-nav-link" data-i18n="nav.contact">Contact</a>
-      </nav>
-      <div class="mobile-lang">
-        <button class="lang-btn active" data-lang="en" aria-pressed="true">EN</button>
-        <span class="lang-sep" aria-hidden="true">|</span>
-        <button class="lang-btn" data-lang="bg" aria-pressed="false">BG</button>
-        <span class="lang-sep" aria-hidden="true">|</span>
-        <button class="lang-btn" data-lang="he" aria-pressed="false">HE</button>
-      </div>
-    </div>
+    <nav class="menu" id="menu" hidden data-i18n-aria="nav.main" aria-label="Main navigation">
+      <a href="#reverse-engineering" data-i18n="nav.re">Reverse Engineering</a>
+      <a href="#measurement" data-i18n="nav.measure">On-Site Measurement</a>
+      <a href="#process" data-i18n="nav.process">How We Work</a>
+      <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#clients" data-i18n="nav.clients">Partners</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
   </header>
 
-  <!-- ═══════════════════════════════════════
-       MAIN CONTENT
-  ═══════════════════════════════════════ -->
   <main id="main-content">
 
-    <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-         HERO
-    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-    <section id="home" class="hero">
-      <div class="hero-bg" aria-hidden="true">
-        <div class="hero-orb hero-orb-1"></div>
-        <div class="hero-orb hero-orb-2"></div>
-        <div class="hero-orb hero-orb-3"></div>
-      </div>
-
-      <div class="hero-content">
-        <div class="hero-eyebrow animate-hero">
-          <span class="eyebrow-dot" aria-hidden="true"></span>
-          <span data-i18n="hero.eyebrow">3D Scanning Studio — Bulgaria</span>
-        </div>
-
-        <h1 class="hero-headline animate-hero" id="hero-headline">
-          <span class="headline-text" data-i18n="hero.headline">Precision 3D Scanning for Construction Excellence</span>
-        </h1>
-
-        <p class="hero-sub animate-hero" data-i18n="hero.sub">
-          We transform real-world structures into exact digital CAD models using LiDAR technology — powering construction and manufacturing worldwide.
-        </p>
-
-        <div class="hero-ctas animate-hero">
-          <a href="#services" class="btn btn-primary" data-i18n="hero.cta1">Our Services</a>
-          <a href="#process"  class="btn btn-outline" data-i18n="hero.cta2">See Our Process</a>
-        </div>
-
-        <div class="hero-stats animate-hero" aria-label="Key capabilities">
-          <div class="hero-stat">
-            <span class="stat-num">±1<span class="stat-unit">mm</span></span>
-            <span class="stat-label" data-i18n="hero.stat1">Scan accuracy</span>
+    <div class="hero-pin">
+      <section id="home" class="hero" data-scene="hero">
+        <canvas class="hero-canvas" aria-hidden="true"></canvas>
+        <div class="hero-scrim" aria-hidden="true"></div>
+        <div class="wrap hero-layer">
+          <div class="hero-copy">
+            <p class="eyebrow load" style="--i:0" data-i18n="hero.eyebrow">Geomagic Design X reverse engineering</p>
+            <h1 class="load" style="--i:1" data-i18n="hero.headline">From 3D scan data to engineered solid models.</h1>
+            <p class="hero-sub load" style="--i:2" data-i18n="hero.sub">We turn scans of buildings and walls into 3D solid models, and measure interiors on site with a Leica scanner in Bulgaria.</p>
+            <div class="hero-cta load" style="--i:3">
+              <a href="#contact" class="btn btn-primary" data-i18n="hero.cta1">Request a quote</a>
+              <a href="#process" class="btn btn-ghost" data-i18n="hero.cta2">See how we work</a>
+            </div>
           </div>
-          <div class="hero-stat-div" aria-hidden="true"></div>
-          <div class="hero-stat">
-            <span class="stat-num">10M<span class="stat-unit">+</span></span>
-            <span class="stat-label" data-i18n="hero.stat2">Points per scan</span>
-          </div>
-          <div class="hero-stat-div" aria-hidden="true"></div>
-          <div class="hero-stat">
-            <span class="stat-num">3</span>
-            <span class="stat-label" data-i18n="hero.stat3">Expert tools</span>
-          </div>
+          <p class="hero-stage" aria-hidden="true" data-i18n="hero.stage1">Measured geometry arrives as a point cloud.</p>
+          <p class="hero-stage" aria-hidden="true" data-i18n="hero.stage2">We reconstruct it as a solid in Geomagic Design X.</p>
+          <p class="hero-stage" aria-hidden="true" data-i18n="hero.stage3">You receive the native project file.</p>
         </div>
-      </div>
+        <p class="hero-note" data-i18n="viewer.caption">Illustrative scene, not a client project.</p>
+      </section>
+    </div>
 
-      <div class="hero-scroll" aria-hidden="true">
-        <div class="scroll-line"></div>
-      </div>
-    </section>
-
-    <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-         SERVICES
-    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-    <section id="services" class="section services-section">
-      <div class="container">
-        <header class="section-head animate-on-scroll">
-          <span class="section-label" data-i18n="services.label">What We Do</span>
-          <h2 class="section-title" data-i18n="services.heading">Precision Services</h2>
-          <p class="section-desc" data-i18n="services.desc">From on-site capture to final deliverables — a complete scanning and reverse engineering pipeline.</p>
+    <section id="reverse-engineering" class="section">
+      <div class="wrap">
+        <header class="head reveal">
+          <h2 data-i18n="re.heading">Reverse engineering in Geomagic Design X</h2>
+          <p data-i18n="re.intro">This is our main work. You send measured geometry, and we reconstruct it as a usable 3D solid model rather than a raw point cloud.</p>
         </header>
 
-        <div class="services-grid">
-
-          <!-- Card 1 -->
-          <article class="service-card animate-on-scroll" tabindex="0">
-            <div class="card-num" aria-hidden="true">01</div>
-            <div class="card-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <circle cx="12" cy="12" r="2.5"/>
-                <circle cx="12" cy="12" r="6" stroke-dasharray="2.5 2"/>
-                <circle cx="12" cy="12" r="10" stroke-dasharray="1.5 3"/>
-                <line x1="12" y1="1.5" x2="12" y2="4"/>
-                <line x1="12" y1="20" x2="12" y2="22.5"/>
-                <line x1="1.5" y1="12" x2="4" y2="12"/>
-                <line x1="20" y1="12" x2="22.5" y2="12"/>
-              </svg>
-            </div>
-            <h3 class="card-title" data-i18n="services.card1.title">LiDAR 3D Scanning</h3>
-            <p class="card-desc" data-i18n="services.card1.desc">On-site capture of any structure with millimeter precision using the FARO Focus LiDAR scanner — millions of data points in minutes.</p>
-            <div class="card-line" aria-hidden="true"></div>
+        <div class="flow">
+          <article class="flow-cell reveal" style="--i:0">
+            <h3 data-i18n="re.in.title">You send</h3>
+            <p data-i18n="re.in.desc">Point clouds and other scanner-derived 3D data.</p>
           </article>
-
-          <!-- Card 2 -->
-          <article class="service-card animate-on-scroll" tabindex="0">
-            <div class="card-num" aria-hidden="true">02</div>
-            <div class="card-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
-                <circle cx="4.5" cy="4.5" r="1.2" fill="currentColor" stroke="none"/>
-                <circle cx="10"  cy="3"   r="0.9" fill="currentColor" stroke="none"/>
-                <circle cx="16"  cy="5"   r="1.2" fill="currentColor" stroke="none"/>
-                <circle cx="20"  cy="9"   r="0.8" fill="currentColor" stroke="none"/>
-                <circle cx="7"   cy="8.5" r="0.9" fill="currentColor" stroke="none"/>
-                <circle cx="13"  cy="9.5" r="1.2" fill="currentColor" stroke="none"/>
-                <circle cx="19"  cy="14"  r="0.9" fill="currentColor" stroke="none"/>
-                <circle cx="4"   cy="13"  r="0.9" fill="currentColor" stroke="none"/>
-                <circle cx="10"  cy="14.5" r="1.2" fill="currentColor" stroke="none"/>
-                <circle cx="16"  cy="13"  r="0.8" fill="currentColor" stroke="none"/>
-                <circle cx="7"   cy="19"  r="1.2" fill="currentColor" stroke="none"/>
-                <circle cx="13"  cy="18"  r="0.9" fill="currentColor" stroke="none"/>
-                <circle cx="20"  cy="20"  r="1.2" fill="currentColor" stroke="none"/>
-                <line x1="4.5" y1="4.5" x2="10"  y2="3"    stroke-width="0.5" opacity="0.4"/>
-                <line x1="10"  y1="3"   x2="16"  y2="5"    stroke-width="0.5" opacity="0.4"/>
-                <line x1="7"   y1="8.5" x2="13"  y2="9.5"  stroke-width="0.5" opacity="0.4"/>
-                <line x1="4"   y1="13"  x2="10"  y2="14.5" stroke-width="0.5" opacity="0.4"/>
-              </svg>
-            </div>
-            <h3 class="card-title" data-i18n="services.card2.title">Point Cloud Processing</h3>
-            <p class="card-desc" data-i18n="services.card2.desc">Registration, cleaning, and alignment of all scans into a single unified point cloud using FARO Scene software.</p>
-            <div class="card-line" aria-hidden="true"></div>
+          <article class="flow-cell reveal" style="--i:1">
+            <h3 data-i18n="re.work.title">We build</h3>
+            <p data-i18n="re.work.desc">3D solid geometry reconstructed in Geomagic Design X, then checked before handover.</p>
           </article>
-
-          <!-- Card 3 -->
-          <article class="service-card animate-on-scroll" tabindex="0">
-            <div class="card-num" aria-hidden="true">03</div>
-            <div class="card-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <polyline points="3 17 3 3 17 3" stroke-dasharray="3 2"/>
-                <rect x="9" y="9" width="12" height="12"/>
-                <path d="M9 9 L13.5 4.5" stroke-dasharray="3 2"/>
-                <path d="M21 9 L21 9" stroke-linecap="round"/>
-                <line x1="13.5" y1="4.5" x2="21" y2="4.5"/>
-                <line x1="21"   y1="4.5" x2="21" y2="9"/>
-              </svg>
-            </div>
-            <h3 class="card-title" data-i18n="services.card3.title">Reverse Engineering</h3>
-            <p class="card-desc" data-i18n="services.card3.desc">Converting scan data into precise, feature-based parametric CAD models using Geomagic Design X — surfaces, solids, and mesh-to-CAD.</p>
-            <div class="card-line" aria-hidden="true"></div>
+          <article class="flow-cell flow-out reveal" style="--i:2">
+            <h3 data-i18n="re.out.title">You receive</h3>
+            <p class="flow-big" data-i18n="re.out.desc">The native Geomagic Design X project file.</p>
+            <p data-i18n="re.out.note">Any other export format is agreed for the specific project before work starts.</p>
           </article>
+        </div>
 
-          <!-- Card 4 -->
-          <article class="service-card animate-on-scroll" tabindex="0">
-            <div class="card-num" aria-hidden="true">04</div>
-            <div class="card-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <rect x="2" y="2" width="20" height="20"/>
-                <line x1="2"  y1="8"  x2="22" y2="8"/>
-                <line x1="8"  y1="2"  x2="8"  y2="8"/>
-                <line x1="12" y1="12" x2="19" y2="12"/>
-                <line x1="12" y1="15" x2="17" y2="15"/>
-                <line x1="12" y1="18" x2="15" y2="18"/>
-                <circle cx="5" cy="5" r="1" fill="currentColor" stroke="none"/>
-              </svg>
-            </div>
-            <h3 class="card-title" data-i18n="services.card4.title">Engineering Deliverables</h3>
-            <p class="card-desc" data-i18n="services.card4.desc">Final 3D models, assembly designs, and detailed engineering drawings in SolidWorks — ready for manufacturing and construction.</p>
-            <div class="card-line" aria-hidden="true"></div>
-          </article>
-
+        <div class="terms reveal">
+          <h3 data-i18n="re.terms.title">What this covers</h3>
+          <ul>
+            <li data-i18n="re.term1">3D scan-to-CAD</li>
+            <li data-i18n="re.term2">Point-cloud-to-solid modeling</li>
+            <li data-i18n="re.term3">3D solid reconstruction</li>
+            <li data-i18n="re.term4">Engineering-oriented model preparation</li>
+          </ul>
         </div>
       </div>
     </section>
 
-    <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-         PROCESS
-    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-    <section id="process" class="section process-section">
-      <div class="container">
-        <header class="section-head animate-on-scroll">
-          <span class="section-label" data-i18n="process.label">How We Work</span>
-          <h2 class="section-title" data-i18n="process.heading">Our Workflow</h2>
-          <p class="section-desc" data-i18n="process.desc">A precise five-step pipeline from physical reality to digital precision.</p>
+    <section id="measurement" class="section section-tint">
+      <div class="wrap measure-grid">
+        <figure class="viewer viewer-room reveal" data-viewer="room">
+          <div class="viewer-stage">
+            <img class="viewer-poster" src="assets/room-poster.webp" width="1400" height="1050" loading="lazy" data-i18n-alt="room.alt" alt="A room built up from laser scan points as a scanner rotates in the middle of the space.">
+            <canvas aria-hidden="true"></canvas>
+          </div>
+          <div class="viewer-control" dir="ltr">
+            <span data-i18n="room.start">Start</span>
+            <input type="range" min="0" max="100" value="100" data-i18n-aria="room.slider" aria-label="Move through the laser scanner sweep">
+            <span data-i18n="room.end">Full sweep</span>
+          </div>
+          <figcaption data-i18n="room.caption">Simulated room. It shows how a scanner sweeps a space, including the shadows behind furniture.</figcaption>
+        </figure>
+
+        <div class="measure-copy">
+          <header class="head reveal">
+            <h2 data-i18n="measure.heading">Leica laser measurement on site</h2>
+            <p data-i18n="measure.intro">A separate service for interior and furniture projects in Bulgaria. We travel from Stara Zagora and capture the real geometry of the space.</p>
+          </header>
+          <dl class="notes">
+            <div class="reveal" style="--i:0">
+              <dt data-i18n="measure.when.title">When it helps</dt>
+              <dd data-i18n="measure.when.desc">Once a concept or quotation is approved and the design needs accurate dimensions of the real space.</dd>
+            </div>
+            <div class="reveal" style="--i:1">
+              <dt data-i18n="measure.get.title">What you get</dt>
+              <dd data-i18n="measure.get.desc">Checked measurement data, handed over in the captured or requested form.</dd>
+            </div>
+            <div class="reveal" style="--i:2">
+              <dt data-i18n="measure.scope.title">What to agree first</dt>
+              <dd data-i18n="measure.scope.desc">Scope and accuracy are confirmed for each job. Solid modeling, floor plans and BIM are not included by default.</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section">
+      <div class="wrap">
+        <header class="head head-wide reveal">
+          <h2 data-i18n="process.heading">Two services, two workflows</h2>
+          <p data-i18n="process.intro">Modeling jobs start from scan data captured by someone else. Measurement jobs start with a site visit. Neither one requires the other.</p>
         </header>
 
-        <div class="process-pipeline" role="list">
-
-          <!-- Step 1 -->
-          <div class="process-step animate-step" data-step="1" role="listitem">
-            <div class="step-num" aria-hidden="true">01</div>
-            <div class="step-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="2" y="6" width="15" height="12" rx="1"/>
-                <path d="M17 10l4-3v10l-4-3"/>
-                <circle cx="9.5" cy="12" r="2.5"/>
-              </svg>
-            </div>
-            <div class="step-body">
-              <h3 class="step-title" data-i18n="process.step1.title">On-Site Capture</h3>
-              <p class="step-desc"  data-i18n="process.step1.desc">FARO Focus LiDAR scanner captures millions of data points in minutes with millimeter accuracy.</p>
-            </div>
+        <div class="tracks">
+          <div class="track reveal">
+            <h3 data-i18n="process.a.title">Remote modeling</h3>
+            <ol>
+              <li><strong data-i18n="process.a.1.title">Send your project</strong><span data-i18n="process.a.1.desc">Share the scan data and what you need from the model.</span></li>
+              <li><strong data-i18n="process.a.2.title">Review the scope</strong><span data-i18n="process.a.2.desc">We go through the job, confirm the requirements and quote it.</span></li>
+              <li><strong data-i18n="process.a.3.title">Reconstruct the model</strong><span data-i18n="process.a.3.desc">A designer builds the solid in Geomagic Design X.</span></li>
+              <li><strong data-i18n="process.a.4.title">Check the result</strong><span data-i18n="process.a.4.desc">The model is reviewed before it leaves us.</span></li>
+              <li><strong data-i18n="process.a.5.title">Receive the project</strong><span data-i18n="process.a.5.desc">You get the native Design X project file.</span></li>
+            </ol>
           </div>
-
-          <div class="step-connector" aria-hidden="true"><div class="connector-arrow"></div></div>
-
-          <!-- Step 2 -->
-          <div class="process-step animate-step" data-step="2" role="listitem">
-            <div class="step-num" aria-hidden="true">02</div>
-            <div class="step-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="8"  cy="12" r="5"/>
-                <circle cx="16" cy="12" r="5"/>
-                <path d="M11.5 9.5 L8 12 L11.5 14.5" stroke-width="1.2"/>
-                <path d="M12.5 9.5 L16 12 L12.5 14.5" stroke-width="1.2"/>
-              </svg>
-            </div>
-            <div class="step-body">
-              <h3 class="step-title" data-i18n="process.step2.title">Point Cloud Processing</h3>
-              <p class="step-desc"  data-i18n="process.step2.desc">FARO Scene registers, cleans, and aligns all scans into one coherent, precise point cloud.</p>
-            </div>
+          <div class="track reveal" style="--i:1">
+            <h3 data-i18n="process.b.title">On-site measurement</h3>
+            <ol>
+              <li><strong data-i18n="process.b.1.title">Approve the concept</strong><span data-i18n="process.b.1.desc">The design and quotation are agreed with your customer.</span></li>
+              <li><strong data-i18n="process.b.2.title">Book the visit</strong><span data-i18n="process.b.2.desc">Send the address and what needs measuring.</span></li>
+              <li><strong data-i18n="process.b.3.title">Travel to the site</strong><span data-i18n="process.b.3.desc">Our team drives out from Stara Zagora.</span></li>
+              <li><strong data-i18n="process.b.4.title">Capture the space</strong><span data-i18n="process.b.4.desc">A Leica laser scanner records the geometry of the site.</span></li>
+              <li><strong data-i18n="process.b.5.title">Hand over the data</strong><span data-i18n="process.b.5.desc">Measurement data is checked and passed on so design work can continue.</span></li>
+            </ol>
           </div>
-
-          <div class="step-connector" aria-hidden="true"><div class="connector-arrow"></div></div>
-
-          <!-- Step 3 -->
-          <div class="process-step animate-step" data-step="3" role="listitem">
-            <div class="step-num" aria-hidden="true">03</div>
-            <div class="step-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
-                <path d="M2 17l10 5 10-5"/>
-                <path d="M2 12l10 5 10-5"/>
-              </svg>
-            </div>
-            <div class="step-body">
-              <h3 class="step-title" data-i18n="process.step3.title">Reverse Engineering</h3>
-              <p class="step-desc"  data-i18n="process.step3.desc">Geomagic Design X converts the point cloud into parametric, feature-based CAD models.</p>
-            </div>
-          </div>
-
-          <div class="step-connector" aria-hidden="true"><div class="connector-arrow"></div></div>
-
-          <!-- Step 4 -->
-          <div class="process-step animate-step" data-step="4" role="listitem">
-            <div class="step-num" aria-hidden="true">04</div>
-            <div class="step-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                <line x1="12" y1="2"  x2="12" y2="6"/>
-                <line x1="4"  y1="6"  x2="20" y2="6"/>
-                <line x1="4"  y1="18" x2="20" y2="18"/>
-                <line x1="12" y1="18" x2="12" y2="22"/>
-                <path d="M7 6 v3 a5 5 0 0 0 10 0 V6"/>
-                <path d="M7 18 v-3 a5 5 0 0 1 10 0 v3"/>
-              </svg>
-            </div>
-            <div class="step-body">
-              <h3 class="step-title" data-i18n="process.step4.title">Engineering &amp; Detailing</h3>
-              <p class="step-desc"  data-i18n="process.step4.desc">SolidWorks finalizes 3D assemblies and produces detailed engineering drawings.</p>
-            </div>
-          </div>
-
-          <div class="step-connector" aria-hidden="true"><div class="connector-arrow"></div></div>
-
-          <!-- Step 5 -->
-          <div class="process-step animate-step" data-step="5" role="listitem">
-            <div class="step-num" aria-hidden="true">05</div>
-            <div class="step-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M22 2L11 13"/>
-                <path d="M22 2L15 22l-4-9-9-4 20-7z"/>
-              </svg>
-            </div>
-            <div class="step-body">
-              <h3 class="step-title" data-i18n="process.step5.title">Delivery</h3>
-              <p class="step-desc"  data-i18n="process.step5.desc">Clients receive accurate measurements and models ready for manufacturing and construction.</p>
-            </div>
-          </div>
-
         </div>
       </div>
     </section>
 
-    <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-         SOFTWARE
-    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-    <section id="software" class="section software-section">
-      <div class="container">
-        <header class="section-head animate-on-scroll">
-          <span class="section-label" data-i18n="software.label">Our Technology</span>
-          <h2 class="section-title" data-i18n="software.heading">Tools We Use</h2>
-          <p class="section-desc" data-i18n="software.desc">Industry-leading software at every stage of the 3D scanning pipeline.</p>
+    <section id="about" class="section section-tint">
+      <div class="wrap about-grid">
+        <div class="reveal">
+          <h2 data-i18n="about.heading">A specialist team in Stara Zagora</h2>
+          <p class="about-p" data-i18n="about.p1">Snapir Design BG is a technical design and reverse-engineering company. We focus on turning measured geometry into useful digital engineering models.</p>
+          <p class="about-p"><span data-i18n="about.p2.before">Our main international partner is </span><a href="https://www.snapir-il.com/en/" target="_blank" rel="noopener noreferrer">Snapir</a><span data-i18n="about.p2.after"> in Israel, which sends us scan projects for modeling in Geomagic Design X.</span></p>
+        </div>
+        <dl class="facts reveal" style="--i:1">
+          <div><dt data-i18n="about.base.label">Based in</dt><dd data-i18n="about.base.value">Stara Zagora, Bulgaria</dd></div>
+          <div><dt data-i18n="about.since.label">Working since</dt><dd>2016</dd></div>
+          <div><dt data-i18n="about.modeling.label">Modeling software</dt><dd>Geomagic Design X</dd></div>
+          <div><dt data-i18n="about.field.label">Field equipment</dt><dd data-i18n="about.field.value">Leica laser scanner</dd></div>
+          <div><dt data-i18n="about.founder.label">Founder</dt><dd>Ihsan Serbest</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="clients" class="section">
+      <div class="wrap">
+        <header class="head reveal">
+          <h2 data-i18n="clients.heading">Trusted by</h2>
         </header>
-      </div>
-
-      <!-- Marquee Strip -->
-      <div class="marquee-outer" aria-hidden="true">
-        <div class="marquee-track">
-          <span class="marquee-item">FARO Scene</span>
-          <span class="marquee-dot">·</span>
-          <span class="marquee-item">Geomagic Design X</span>
-          <span class="marquee-dot">·</span>
-          <span class="marquee-item">SolidWorks</span>
-          <span class="marquee-dot">·</span>
-          <span class="marquee-item">FARO Focus LiDAR</span>
-          <span class="marquee-dot">·</span>
-          <span class="marquee-item">3D Scanning</span>
-          <span class="marquee-dot">·</span>
-          <span class="marquee-item">Reverse Engineering</span>
-          <span class="marquee-dot">·</span>
-          <span class="marquee-item">Point Cloud Processing</span>
-          <span class="marquee-dot">·</span>
-          <!-- Duplicate for seamless loop -->
-          <span class="marquee-item">FARO Scene</span>
-          <span class="marquee-dot">·</span>
-          <span class="marquee-item">Geomagic Design X</span>
-          <span class="marquee-dot">·</span>
-          <span class="marquee-item">SolidWorks</span>
-          <span class="marquee-dot">·</span>
-          <span class="marquee-item">FARO Focus LiDAR</span>
-          <span class="marquee-dot">·</span>
-          <span class="marquee-item">3D Scanning</span>
-          <span class="marquee-dot">·</span>
-          <span class="marquee-item">Reverse Engineering</span>
-          <span class="marquee-dot">·</span>
-          <span class="marquee-item">Point Cloud Processing</span>
-          <span class="marquee-dot">·</span>
-        </div>
-      </div>
-
-      <!-- Software Cards -->
-      <div class="container">
-        <div class="software-grid">
-
-          <!-- FARO Scene -->
-          <article class="software-card animate-on-scroll">
-            <div class="sw-logo-wrap">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Faro_Logo_2020.svg/1200px-Faro_Logo_2020.svg.png"
-                alt="FARO Technologies logo"
-                class="sw-logo-img"
-                loading="lazy"
-                onerror="this.style.display='none';this.nextElementSibling.style.display='inline-block';"
-              >
-              <span class="sw-logo-badge" style="display:none">FARO</span>
+        <div class="partners">
+          <article class="partner reveal">
+            <div class="partner-top">
+              <span data-i18n="clients.snapir.tag">Primary partner</span>
+              <span data-i18n="clients.snapir.country">Israel</span>
             </div>
-            <div class="sw-info">
-              <h3 class="sw-name">FARO Scene</h3>
-              <p class="sw-role" data-i18n="software.faro.role">Point Cloud Registration &amp; Processing</p>
-              <p class="sw-desc" data-i18n="software.faro.desc">We use FARO Scene to register, process, and align multiple LiDAR scans into a single, coherent point cloud model ready for reverse engineering.</p>
-            </div>
+            <h3><a href="https://www.snapir-il.com/en/" target="_blank" rel="noopener noreferrer">Snapir</a></h3>
+            <p data-i18n="clients.snapir.desc">An established Israeli manufacturer of aluminum gates, fences, banisters and architectural metalwork for private, commercial and public construction. Precise measurements are the foundation of every product they deliver.</p>
+            <p class="partner-field" data-i18n="clients.snapir.industry">Architectural metalwork and aluminum construction</p>
           </article>
-
-          <!-- Geomagic Design X -->
-          <article class="software-card animate-on-scroll">
-            <div class="sw-logo-wrap">
-              <span class="sw-logo-badge">3D Systems</span>
+          <article class="partner reveal" style="--i:1">
+            <div class="partner-top">
+              <span data-i18n="clients.modro.tag">Leica measurement partner</span>
+              <span data-i18n="clients.modro.country">Bulgaria and Turkey</span>
             </div>
-            <div class="sw-info">
-              <h3 class="sw-name">Geomagic Design X</h3>
-              <p class="sw-role" data-i18n="software.geomagic.role">Scan-to-CAD / Reverse Engineering</p>
-              <p class="sw-desc" data-i18n="software.geomagic.desc">The industry standard for converting point cloud data into precise, feature-based parametric CAD models — the core of our reverse engineering workflow.</p>
-            </div>
+            <h3><a href="https://modroyapi.com/" target="_blank" rel="noopener noreferrer">Modro</a></h3>
+            <p data-i18n="clients.modro.desc">An interior design and furniture business operating in Bulgaria and Turkey. Once a design and quotation are approved, we measure the real space on site with a Leica laser scanner.</p>
+            <p class="partner-field" data-i18n="clients.modro.industry">Interior design and furniture</p>
           </article>
-
-          <!-- SolidWorks -->
-          <article class="software-card animate-on-scroll">
-            <div class="sw-logo-wrap">
-              <span class="sw-logo-badge">Dassault Systèmes</span>
+          <article class="partner-open reveal" style="--i:2">
+            <div>
+              <h3 data-i18n="clients.open.title">Open to new clients</h3>
+              <p data-i18n="clients.open.desc">We work with manufacturers, construction firms and engineering studios. Whether you need one project or an ongoing partnership, tell us what you are building.</p>
             </div>
-            <div class="sw-info">
-              <h3 class="sw-name">SolidWorks</h3>
-              <p class="sw-role" data-i18n="software.solidworks.role">3D CAD, Assemblies &amp; Engineering Drawings</p>
-              <p class="sw-desc" data-i18n="software.solidworks.desc">Final 3D modeling, assembly design, and detailed engineering drawings used directly by clients for manufacturing and construction.</p>
-            </div>
+            <a href="#contact" class="btn btn-ghost" data-i18n="hero.cta1">Request a quote</a>
           </article>
-
         </div>
       </div>
     </section>
 
-    <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-         ABOUT
-    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-    <section id="about" class="section about-section">
-      <div class="container">
-        <div class="about-grid">
-
-          <div class="about-text animate-on-scroll">
-            <span class="section-label" data-i18n="about.label">Who We Are</span>
-            <h2 class="section-title" data-i18n="about.heading">About Snapir Design</h2>
-            <p class="about-p" data-i18n="about.p1">We are a Bulgaria-based 3D engineering studio specializing in LiDAR scanning and reverse engineering for construction and manufacturing industries.</p>
-            <p class="about-p" data-i18n="about.p2">Our primary partner is Snapir — an Israeli leader in precision aluminum construction products including gates, fences, banisters, and architectural elements for private, commercial, and public clients.</p>
-            <p class="about-p" data-i18n="about.p3">We bridge advanced scanning technology with construction precision — turning real-world structures into exact digital models that power manufacturing and building projects. We welcome new clients globally.</p>
-            <div class="founder-line">
-              <span class="founder-label" data-i18n="about.founderLabel">Founder</span>
-              <span class="founder-name">Ihsan Serbest</span>
-              <span class="founder-since" data-i18n="about.founderSince">Since 2016</span>
-            </div>
-
-            <div class="about-badges">
-              <div class="about-badge">
-                <span class="badge-icon" aria-hidden="true">
-                  <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="8" cy="7" r="3"/><path d="M8 2a5 5 0 010 10c-2.5 0-4.5-1.5-5-3.5"/></svg>
-                </span>
-                <span data-i18n="about.badge1">Based in Bulgaria</span>
-              </div>
-              <div class="about-badge">
-                <span class="badge-icon" aria-hidden="true">
-                  <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="8" cy="8" r="6"/><path d="M2 8h12M8 2a10 10 0 010 12M8 2a10 10 0 000 12"/></svg>
-                </span>
-                <span data-i18n="about.badge2">Serving clients worldwide</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="about-graphic animate-on-scroll" aria-hidden="true">
-            <!-- Aluminum gate / fence elevation — engineering drawing style -->
-            <svg viewBox="0 0 400 440" xmlns="http://www.w3.org/2000/svg" class="about-svg">
-              <defs>
-                <pattern id="engGrid" width="20" height="20" patternUnits="userSpaceOnUse">
-                  <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#ececec" stroke-width="0.4"/>
-                </pattern>
-                <pattern id="engGridMajor" width="100" height="100" patternUnits="userSpaceOnUse">
-                  <path d="M 100 0 L 0 0 0 100" fill="none" stroke="#e0e0e0" stroke-width="0.8"/>
-                </pattern>
-              </defs>
-
-              <!-- Engineering paper background -->
-              <rect width="400" height="440" fill="#fafafa"/>
-              <rect width="400" height="440" fill="url(#engGrid)"/>
-              <rect width="400" height="440" fill="url(#engGridMajor)"/>
-
-              <!-- Drawing border -->
-              <rect x="8" y="8" width="384" height="424" fill="none" stroke="#d4d4d4" stroke-width="0.8"/>
-              <rect x="12" y="12" width="376" height="416" fill="none" stroke="#e8e8e8" stroke-width="0.4"/>
-
-              <!-- ── GATE ELEVATION DRAWING ── -->
-              <!-- Left post (hollow profile) -->
-              <rect x="44"  y="68"  width="16" height="270" fill="#f5f5f5" stroke="#262626" stroke-width="1.4"/>
-              <rect x="47"  y="71"  width="10" height="264" fill="#ececec" stroke="#a3a3a3" stroke-width="0.5"/>
-
-              <!-- Right post -->
-              <rect x="340" y="68"  width="16" height="270" fill="#f5f5f5" stroke="#262626" stroke-width="1.4"/>
-              <rect x="343" y="71"  width="10" height="264" fill="#ececec" stroke="#a3a3a3" stroke-width="0.5"/>
-
-              <!-- Top rail -->
-              <rect x="60"  y="74"  width="280" height="13" fill="#f0f0f0" stroke="#262626" stroke-width="1.2"/>
-              <rect x="62"  y="76"  width="276" height="5"  fill="#e8e8e8" stroke="none"/>
-
-              <!-- Mid rail -->
-              <rect x="60"  y="195" width="280" height="11" fill="#f0f0f0" stroke="#262626" stroke-width="1.2"/>
-              <rect x="62"  y="197" width="276" height="4"  fill="#e8e8e8" stroke="none"/>
-
-              <!-- Bottom rail -->
-              <rect x="60"  y="314" width="280" height="13" fill="#f0f0f0" stroke="#262626" stroke-width="1.2"/>
-              <rect x="62"  y="316" width="276" height="5"  fill="#e8e8e8" stroke="none"/>
-
-              <!-- Vertical pickets (7) — with spear tops -->
-              <!-- Picket helper macro: x positions 82,122,162,200,238,278,318 -->
-              <!-- Picket 1 -->
-              <polygon points="86,68 90,60 94,68" fill="#d4d4d4" stroke="#262626" stroke-width="1"/>
-              <rect x="86" y="68" width="8" height="259" fill="#f0f0f0" stroke="#262626" stroke-width="1"/>
-              <!-- Picket 2 -->
-              <polygon points="122,68 126,60 130,68" fill="#d4d4d4" stroke="#262626" stroke-width="1"/>
-              <rect x="122" y="68" width="8" height="259" fill="#f0f0f0" stroke="#262626" stroke-width="1"/>
-              <!-- Picket 3 -->
-              <polygon points="158,68 162,60 166,68" fill="#d4d4d4" stroke="#262626" stroke-width="1"/>
-              <rect x="158" y="68" width="8" height="259" fill="#f0f0f0" stroke="#262626" stroke-width="1"/>
-              <!-- Picket 4 (center) -->
-              <polygon points="196,68 200,60 204,68" fill="#d4d4d4" stroke="#262626" stroke-width="1"/>
-              <rect x="196" y="68" width="8" height="259" fill="#f0f0f0" stroke="#262626" stroke-width="1"/>
-              <!-- Picket 5 -->
-              <polygon points="226,68 230,60 234,68" fill="#d4d4d4" stroke="#262626" stroke-width="1"/>
-              <rect x="226" y="68" width="8" height="259" fill="#f0f0f0" stroke="#262626" stroke-width="1"/>
-              <!-- Picket 6 -->
-              <polygon points="262,68 266,60 270,68" fill="#d4d4d4" stroke="#262626" stroke-width="1"/>
-              <rect x="262" y="68" width="8" height="259" fill="#f0f0f0" stroke="#262626" stroke-width="1"/>
-              <!-- Picket 7 -->
-              <polygon points="298,68 302,60 306,68" fill="#d4d4d4" stroke="#262626" stroke-width="1"/>
-              <rect x="298" y="68" width="8" height="259" fill="#f0f0f0" stroke="#262626" stroke-width="1"/>
-
-              <!-- ── DIMENSION LINES ── -->
-              <!-- Width dimension (bottom) -->
-              <line x1="44"  y1="358" x2="356" y2="358" stroke="#a3a3a3" stroke-width="0.8"/>
-              <line x1="44"  y1="352" x2="44"  y2="364" stroke="#a3a3a3" stroke-width="0.8"/>
-              <line x1="356" y1="352" x2="356" y2="364" stroke="#a3a3a3" stroke-width="0.8"/>
-              <rect x="158" y="351" width="84" height="14" fill="#fafafa"/>
-              <text x="200" y="361" font-size="8.5" fill="#525252" text-anchor="middle" font-family="Inter,sans-serif" font-weight="500">1 850 mm</text>
-
-              <!-- Height dimension (right side) -->
-              <line x1="368" y1="68"  x2="368" y2="338" stroke="#a3a3a3" stroke-width="0.8"/>
-              <line x1="362" y1="68"  x2="374" y2="68"  stroke="#a3a3a3" stroke-width="0.8"/>
-              <line x1="362" y1="338" x2="374" y2="338" stroke="#a3a3a3" stroke-width="0.8"/>
-              <rect x="358" y="190" width="24" height="14" fill="#fafafa"/>
-              <text x="381" y="201" font-size="8" fill="#525252" text-anchor="middle" font-family="Inter,sans-serif" font-weight="500" transform="rotate(90,381,198)">1 200 mm</text>
-
-              <!-- Picket spacing callout -->
-              <line x1="86"  y1="44" x2="122" y2="44" stroke="#a3a3a3" stroke-width="0.7" stroke-dasharray="2 1.5"/>
-              <line x1="86"  y1="40" x2="86"  y2="48" stroke="#a3a3a3" stroke-width="0.7"/>
-              <line x1="122" y1="40" x2="122" y2="48" stroke="#a3a3a3" stroke-width="0.7"/>
-              <text x="104" y="41" font-size="7" fill="#737373" text-anchor="middle" font-family="Inter,sans-serif">36 mm</text>
-
-              <!-- ── GOLD CALLOUT ANNOTATIONS ── -->
-              <!-- Top-left callout: profile section -->
-              <line x1="44"  y1="100" x2="30"  y2="125" stroke="#C4973A" stroke-width="0.8"/>
-              <circle cx="44" cy="100" r="2" fill="#C4973A"/>
-              <rect x="14" y="125" width="62" height="20" fill="#fdf8f0" stroke="#C4973A" stroke-width="0.8"/>
-              <text x="45" y="134.5" font-size="7.5" fill="#C4973A" text-anchor="middle" font-family="Inter,sans-serif" font-weight="600">80×40mm</text>
-              <text x="45" y="142" font-size="6.5" fill="#a3a3a3" text-anchor="middle" font-family="Inter,sans-serif">Al Profile</text>
-
-              <!-- Top-right callout: rail thickness -->
-              <line x1="340" y1="82" x2="355" y2="110" stroke="#C4973A" stroke-width="0.8"/>
-              <circle cx="340" cy="82" r="2" fill="#C4973A"/>
-              <rect x="330" y="110" width="56" height="20" fill="#fdf8f0" stroke="#C4973A" stroke-width="0.8"/>
-              <text x="358" y="119.5" font-size="7.5" fill="#C4973A" text-anchor="middle" font-family="Inter,sans-serif" font-weight="600">t = 2 mm</text>
-              <text x="358" y="127" font-size="6.5" fill="#a3a3a3" text-anchor="middle" font-family="Inter,sans-serif">Wall thickness</text>
-
-              <!-- ── SCAN OVERLAY (horizontal dashed line) ── -->
-              <line x1="20" y1="200" x2="380" y2="200" stroke="#C4973A" stroke-width="0.6" stroke-dasharray="4 3" opacity="0.35"/>
-              <text x="22" y="197" font-size="6" fill="#C4973A" font-family="Inter,sans-serif" opacity="0.6">SCAN LINE</text>
-
-              <!-- Scattered point cloud dots -->
-              <circle cx="26"  cy="80"  r="1.5" fill="#c0c0c0" opacity="0.7"/>
-              <circle cx="22"  cy="150" r="1"   fill="#d4d4d4" opacity="0.7"/>
-              <circle cx="28"  cy="220" r="1.5" fill="#a3a3a3" opacity="0.7"/>
-              <circle cx="24"  cy="290" r="1"   fill="#c0c0c0" opacity="0.7"/>
-              <circle cx="380" cy="90"  r="1.5" fill="#c0c0c0" opacity="0.7"/>
-              <circle cx="384" cy="165" r="1"   fill="#a3a3a3" opacity="0.7"/>
-              <circle cx="378" cy="240" r="1.5" fill="#d4d4d4" opacity="0.7"/>
-
-              <!-- ── TITLE BLOCK ── -->
-              <rect x="14" y="376" width="372" height="48" fill="#f5f5f5" stroke="#d4d4d4" stroke-width="0.8"/>
-              <line x1="14" y1="389" x2="386" y2="389" stroke="#d4d4d4" stroke-width="0.5"/>
-              <line x1="200" y1="376" x2="200" y2="424" stroke="#d4d4d4" stroke-width="0.5"/>
-              <text x="107" y="386" font-size="7" fill="#737373" text-anchor="middle" font-family="Inter,sans-serif" font-weight="600" letter-spacing="0.08em">ALUMINUM GATE ELEVATION</text>
-              <text x="107" y="404" font-size="8.5" fill="#0a0a0a" text-anchor="middle" font-family="Inter,sans-serif" font-weight="500">FRONT VIEW — 1:20</text>
-              <text x="107" y="416" font-size="7" fill="#a3a3a3" text-anchor="middle" font-family="Inter,sans-serif">Rev. A — Snapir Design</text>
-              <text x="293" y="386" font-size="7" fill="#737373" text-anchor="middle" font-family="Inter,sans-serif" font-weight="600" letter-spacing="0.08em">MATERIAL / TOLERANCE</text>
-              <text x="293" y="401" font-size="8" fill="#0a0a0a" text-anchor="middle" font-family="Inter,sans-serif">Aluminium 6063-T5</text>
-              <text x="293" y="413" font-size="7.5" fill="#C4973A" text-anchor="middle" font-family="Inter,sans-serif" font-weight="600">±1 mm general tolerance</text>
-            </svg>
-          </div>
-
+    <section id="contact" class="section section-tint">
+      <div class="wrap contact-grid">
+        <div class="contact-copy reveal">
+          <h2 data-i18n="contact.heading">Request a quote</h2>
+          <p data-i18n="contact.sub">Tell us which service you need and what the project involves.</p>
         </div>
-      </div>
-    </section>
 
-    <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-         CLIENTS
-    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-    <section id="clients" class="section clients-section">
-      <div class="container">
-        <header class="section-head animate-on-scroll">
-          <span class="section-label" data-i18n="clients.label">Our Partners</span>
-          <h2 class="section-title" data-i18n="clients.heading">Trusted By</h2>
-        </header>
-
-        <div class="clients-grid">
-
-          <!-- Snapir Card -->
-          <article class="client-card client-featured animate-on-scroll">
-            <div class="client-top">
-              <span class="client-tag" data-i18n="clients.snapir.tag">Primary Partner</span>
-              <span class="client-country" data-i18n="clients.snapir.country">Israel</span>
-            </div>
-            <h3 class="client-name">
-              <a href="https://www.snapir-il.com/en/" target="_blank" rel="noopener noreferrer" class="client-name-link">Snapir ↗</a>
-            </h3>
-            <p class="client-desc" data-i18n="clients.snapir.desc">An established Israeli manufacturer producing high-quality aluminum gates, fences, banisters, and architectural metalwork for private, commercial, and public construction. Precise measurements are the foundation of every product they deliver.</p>
-            <div class="client-industry">
-              <span data-i18n="clients.snapir.industry">Architectural Metalwork &nbsp;·&nbsp; Aluminum Construction</span>
-            </div>
-          </article>
-
-          <!-- Open to Clients -->
-          <article class="client-card client-open animate-on-scroll">
-            <div class="client-open-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
-                <circle cx="12" cy="12" r="9"/>
-                <line x1="12" y1="8" x2="12" y2="16"/>
-                <line x1="8"  y1="12" x2="16" y2="12"/>
-              </svg>
-            </div>
-            <h3 class="client-open-title" data-i18n="clients.open.title">Open to New Clients</h3>
-            <p class="client-open-desc" data-i18n="clients.open.desc">We work with manufacturers, construction firms, and engineering studios worldwide. Whether you need a single scan or an ongoing partnership — we deliver precision.</p>
-            <a href="#contact" class="btn btn-primary btn-sm" data-i18n="clients.open.btn">Get In Touch</a>
-          </article>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-         CONTACT
-    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-    <section id="contact" class="section contact-section">
-      <div class="container">
-        <div class="contact-grid">
-
-          <div class="contact-info animate-on-scroll">
-            <span class="section-label" data-i18n="contact.label">Contact</span>
-            <h2 class="section-title" data-i18n="contact.heading">Get In Touch</h2>
-            <p class="contact-sub" data-i18n="contact.sub">Ready to start your next project? Send us a message and we'll respond promptly.</p>
-            <div class="contact-loc">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/>
-                <circle cx="12" cy="10" r="3"/>
-              </svg>
-              <span data-i18n="contact.location">Based in Bulgaria, serving clients worldwide</span>
-            </div>
-          </div>
-
-          <div class="contact-form-wrap animate-on-scroll">
-
-            <form id="contact-form" class="contact-form" novalidate aria-label="Contact form">
-              <div class="form-row">
-                <div class="form-group">
-                  <label for="f-name" data-i18n="contact.name">Name</label>
-                  <input type="text" id="f-name" name="name" autocomplete="name" required
-                    data-i18n-placeholder="contact.namePh" placeholder="Your full name">
-                </div>
-                <div class="form-group">
-                  <label for="f-company" data-i18n="contact.company">Company</label>
-                  <input type="text" id="f-company" name="company" autocomplete="organization"
-                    data-i18n-placeholder="contact.companyPh" placeholder="Your company (optional)">
-                </div>
+        <div class="contact-panel reveal" style="--i:1">
+          <form id="contact-form" novalidate>
+            <fieldset class="choice">
+              <legend data-i18n="contact.service">Service</legend>
+              <div class="choice-row">
+                <label><input type="radio" name="service" value="Reverse engineering" checked><span data-i18n="contact.service.re">Reverse engineering</span></label>
+                <label><input type="radio" name="service" value="On-site measurement"><span data-i18n="contact.service.measure">On-site measurement</span></label>
+                <label><input type="radio" name="service" value="Not sure yet"><span data-i18n="contact.service.unsure">Not sure yet</span></label>
               </div>
-              <div class="form-group">
-                <label for="f-email" data-i18n="contact.email">Email</label>
-                <input type="email" id="f-email" name="email" autocomplete="email" required
-                  data-i18n-placeholder="contact.emailPh" placeholder="your@email.com">
-              </div>
-              <div class="form-group">
-                <label for="f-message" data-i18n="contact.message">Message</label>
-                <textarea id="f-message" name="message" rows="5" required
-                  data-i18n-placeholder="contact.messagePh" placeholder="Tell us about your project..."></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary btn-full" data-i18n="contact.submit">Send Message</button>
-            </form>
+            </fieldset>
 
-            <!-- Success State -->
-            <div class="form-success" id="form-success" role="alert" aria-live="polite" hidden>
-              <div class="success-check" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                  <circle cx="12" cy="12" r="10"/>
-                  <polyline points="9 12 11 14 15 10"/>
-                </svg>
+            <div class="field-row">
+              <div class="field">
+                <label for="f-name" data-i18n="contact.name">Name</label>
+                <input type="text" id="f-name" name="name" autocomplete="name" required aria-describedby="f-name-error">
+                <p class="field-error" id="f-name-error" hidden></p>
               </div>
-              <h3 class="success-title" data-i18n="contact.successTitle">Message Sent</h3>
-              <p class="success-text"  data-i18n="contact.successText">Thank you! We'll be in touch with you shortly.</p>
+              <div class="field">
+                <label for="f-company" data-i18n="contact.company">Company (optional)</label>
+                <input type="text" id="f-company" name="company" autocomplete="organization">
+              </div>
             </div>
 
+            <div class="field">
+              <label for="f-email" data-i18n="contact.email">Email</label>
+              <input type="email" id="f-email" name="email" autocomplete="email" required aria-describedby="f-email-error">
+              <p class="field-error" id="f-email-error" hidden></p>
+            </div>
+
+            <div class="field">
+              <label for="f-message" data-i18n="contact.message">Project details</label>
+              <textarea id="f-message" name="message" rows="5" required aria-describedby="f-message-error"></textarea>
+              <p class="field-error" id="f-message-error" hidden></p>
+            </div>
+
+            <input type="text" name="_gotcha" class="trap" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+            <button type="submit" class="btn btn-primary btn-full" data-i18n="contact.submit">Send request</button>
+            <p class="form-error" id="form-error" role="alert" hidden></p>
+          </form>
+
+          <div class="form-success" id="form-success" role="status" tabindex="-1" hidden>
+            <h3 data-i18n="contact.successTitle">Request sent</h3>
+            <p data-i18n="contact.successText">Thank you. We will reply to the email address you gave us.</p>
           </div>
         </div>
       </div>
@@ -784,54 +342,29 @@
 
   </main>
 
-  <!-- ═══════════════════════════════════════
-       FOOTER
-  ═══════════════════════════════════════ -->
   <footer class="footer">
-    <div class="container">
-      <div class="footer-inner">
-
-        <div class="footer-brand">
-          <a href="#home" class="logo-link" aria-label="Snapir Design — Home">
-            <img
-              src="./logo-with-text.svg"
-              alt="Snapir Design"
-              class="logo-img footer-logo"
-              loading="lazy"
-              onerror="this.style.display='none';this.nextElementSibling.style.display='block';"
-            >
-            <span class="logo-fallback" style="display:none" aria-hidden="true">SNAPIR DESIGN</span>
-          </a>
-          <p class="footer-tagline" data-i18n="footer.tagline">3D Scanning &amp; Reverse Engineering</p>
-        </div>
-
-        <nav class="footer-nav" aria-label="Footer navigation">
-          <a href="#services" class="footer-link" data-i18n="nav.services">Services</a>
-          <a href="#process"  class="footer-link" data-i18n="nav.process">Process</a>
-          <a href="#software" class="footer-link" data-i18n="nav.software">Software</a>
-          <a href="#about"    class="footer-link" data-i18n="nav.about">About</a>
-          <a href="#contact"  class="footer-link" data-i18n="nav.contact">Contact</a>
-        </nav>
-
-        <div class="footer-lang-wrap">
-          <div class="lang-switcher" role="group" aria-label="Language selection">
-            <button class="lang-btn active" data-lang="en" aria-pressed="true">EN</button>
-            <span class="lang-sep" aria-hidden="true">|</span>
-            <button class="lang-btn" data-lang="bg" aria-pressed="false">BG</button>
-            <span class="lang-sep" aria-hidden="true">|</span>
-            <button class="lang-btn" data-lang="he" aria-pressed="false">HE</button>
-          </div>
-        </div>
-
+    <div class="wrap footer-grid">
+      <div>
+        <img class="footer-logo" src="logo-full.svg" alt="Snapir Design BG" width="281" height="40" loading="lazy">
+        <p data-i18n="footer.tagline">From 3D scan data to engineered solid models.</p>
       </div>
-
-      <div class="footer-bottom">
-        <span data-i18n="footer.rights">© 2025 Snapir Design. All rights reserved.</span>
-        <span class="footer-loc" data-i18n="footer.location">Bulgaria</span>
+      <nav data-i18n-aria="nav.main" aria-label="Main navigation">
+        <a href="#reverse-engineering" data-i18n="nav.re">Reverse Engineering</a>
+        <a href="#measurement" data-i18n="nav.measure">On-Site Measurement</a>
+        <a href="#process" data-i18n="nav.process">How We Work</a>
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#clients" data-i18n="nav.clients">Partners</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="footer-legal">
+        <p data-i18n="footer.rights">© 2026 Snapir Design BG. All rights reserved.</p>
+        <p data-i18n="footer.marks">Geomagic Design X and Leica are trademarks of their respective owners.</p>
       </div>
     </div>
   </footer>
 
+  <script src="i18n.js"></script>
+  <script src="scan-viewer.js"></script>
   <script src="main.js"></script>
 </body>
 </html>
